@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>{{ nguoi_dung.ten_hien_thi }} - Official Portfolio</title>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    
+    <link href="{% static 'cv/css/styles.css' %}" rel="stylesheet" />
+</head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Tran Nguyen Khanh</span>
+                <span class="d-none d-lg-block">
+    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" 
+         src="{% static 'cv/assets/img/avatar.jpeg' %}" 
+         alt="Avatar của tôi" />
+</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0"> <span class="text-primary">Tran Nguyen Khanh</span></h1>
+                    <div class="subheading mb-5">
+                       10 No 1 Street, Nguyen Chich, Khanh Hoa
+                        <a href="mailto:trannguyenkhanhlythaito@gmail.com">trannguyenhanhlythaito@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am an undergraduated student at HCMUT</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.facebook.com/iamken112006/" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                        <a class="social-icon" href="https://github.com/Trankhanh0605" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://trankhanh0605.wordpress.com/" target="_blank"><i class="fab fa-wordpress"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Math Tutor</h3>
+                            <div class="subheading mb-3">High School teaching</div>
+                            <p>
+                                I get this job in order to get more income and also help my besties to gain better understanding of math.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2021-2023</span></div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Teaching Assistant</h3>
+                            <div class="subheading mb-3">For my dad's academic institute</div>
+                            <p>
+                                The pressure was immense those days. 
+                            </p>
+                        </div>
+
+                        <div class="flex-shrink-0"><span class="text-primary">2019-2021</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Ho Chi Minh University of Technology</h3>
+                            <div class="subheading mb-3">Bachelor of Computer Science</div>
+                            <div>Computer Science - Cybersecurity</div>
+                            <p>GPA: 3.2</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2024 - May 2028</span></div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Le Quy Don Khanh Hoa High School for the gifted</h3>
+                            <div class="subheading mb-3">Biology Programm</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - May 2024</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow for me and my team</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Requirement Analysis – gather and document system needs
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Architecture Design – choose framework, design database, define APIs
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Development – implement modules, follow coding standards, write tests
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Testing & Debugging – unit tests, integration tests, performance checks
+                        </li>
+
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Deployment – package with Docker, set up CI/CD, deploy to server/cloud
+                        </li>
+
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Maintenance & Improvement – monitor, fix bugs, optimize, update system
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>
+                        Apart from studying, I enjoy most of my time being outdoors. I enjoy sports such as football, badminton (my favorite), and maybe hiking.
+                    </p>
+                    <p class="mb-0">
+                        When forced indoors, I follow a number of sci-fi and fantasy genre animes, listen to US-UK also help me to unwind.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        {% for item in danh_sach_thanh_tich %}
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            <strong>{{ item.tieu_de }}</strong> -  {{ item.to_chuc_cap }} 
+                            <span class="text-muted">({{ item.ngay_nhan|date:"d/m/Y" }})</span>
+                            <p>{{ item.mo_ta }}</p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'cv/js/scripts.js' %}"></script>
+</body>
+    </body>
+</html>
