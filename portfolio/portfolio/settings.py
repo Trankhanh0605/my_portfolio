@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cv',
+    # remember to add 'cv' in order to make its models appear on the admin page
+    'cv', 
 ]
 
 MIDDLEWARE = [

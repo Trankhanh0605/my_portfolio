@@ -5,7 +5,6 @@ from . import views  # Import file views từ thư mục hiện tại
 urlpatterns = [
     # 1. Trang chủ (Homepage)
     # path('', ...): Chuỗi rỗng nghĩa là trang chủ (vd: 127.0.0.1:8000)
-    # name='home': Đặt tên để sau này gọi trong file HTML cho dễ (VD: {% url 'home' %})
     path('', views.home, name='home'),
 
     # 2. Trang chi tiết dự án (Ví dụ mở rộng)
