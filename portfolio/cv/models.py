@@ -4,7 +4,7 @@ class HoSo(models.Model):
     ten_hien_thi = models.CharField(max_length=100, help_text="ten cua ban")
     nghe_nghiep = models.CharField(max_length=100, help_text="Ví dụ: Backend Developer")
     gioi_thieu = models.TextField(help_text="Đoạn văn giới thiệu bản thân ngắn gọn")
-    avatar = models.ImageField(upload_to='profile_pics/') # Cần cài thư viện Pillow
+    avatar = models.ImageField(upload_to='profile_pics/') # Need Pillow
     file_cv = models.FileField(upload_to='cv_files/', blank=True, help_text="File PDF CV để người xem tải về")
     link_github = models.URLField(blank=True)
     link_linkedin = models.URLField(blank=True)
